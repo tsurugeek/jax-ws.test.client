@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for sayHelloResponse complex type.
+ * <p>sayHelloResponse complex typeのJavaクラス。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>次のスキーマ・フラグメントは、このクラス内に含まれる予期されるコンテンツを指定します。
  * 
  * <pre>
  * &lt;complexType name="sayHelloResponse">
@@ -36,7 +36,7 @@ public class SayHelloResponse {
     protected String _return;
 
     /**
-     * Gets the value of the return property.
+     * returnプロパティの値を取得します。
      * 
      * @return
      *     possible object is
@@ -48,7 +48,7 @@ public class SayHelloResponse {
     }
 
     /**
-     * Sets the value of the return property.
+     * returnプロパティの値を設定します。
      * 
      * @param value
      *     allowed object is

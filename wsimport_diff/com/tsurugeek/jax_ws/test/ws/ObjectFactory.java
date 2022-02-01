@@ -24,22 +24,14 @@ import javax.xml.namespace.QName;
 @XmlRegistry
 public class ObjectFactory {
 
-    private final static QName _SayHello_QNAME = new QName("http://ws.test.jax_ws.tsurugeek.com/", "sayHello");
     private final static QName _SayHelloResponse_QNAME = new QName("http://ws.test.jax_ws.tsurugeek.com/", "sayHelloResponse");
+    private final static QName _SayHello_QNAME = new QName("http://ws.test.jax_ws.tsurugeek.com/", "sayHello");
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: com.tsurugeek.jax_ws.test.ws
      * 
      */
     public ObjectFactory() {
-    }
-
-    /**
-     * Create an instance of {@link SayHelloResponse }
-     * 
-     */
-    public SayHelloResponse createSayHelloResponse() {
-        return new SayHelloResponse();
     }
 
     /**
@@ -51,12 +43,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SayHello }{@code >}}
+     * Create an instance of {@link SayHelloResponse }
      * 
      */
-    @XmlElementDecl(namespace = "http://ws.test.jax_ws.tsurugeek.com/", name = "sayHello")
-    public JAXBElement<SayHello> createSayHello(SayHello value) {
-        return new JAXBElement<SayHello>(_SayHello_QNAME, SayHello.class, null, value);
+    public SayHelloResponse createSayHelloResponse() {
+        return new SayHelloResponse();
     }
 
     /**
@@ -66,6 +57,15 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://ws.test.jax_ws.tsurugeek.com/", name = "sayHelloResponse")
     public JAXBElement<SayHelloResponse> createSayHelloResponse(SayHelloResponse value) {
         return new JAXBElement<SayHelloResponse>(_SayHelloResponse_QNAME, SayHelloResponse.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link SayHello }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://ws.test.jax_ws.tsurugeek.com/", name = "sayHello")
+    public JAXBElement<SayHello> createSayHello(SayHello value) {
+        return new JAXBElement<SayHello>(_SayHello_QNAME, SayHello.class, null, value);
     }
 
 }

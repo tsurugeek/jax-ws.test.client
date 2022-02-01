@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for sayHello complex type.
+ * <p>sayHello complex typeのJavaクラス。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>次のスキーマ・フラグメントは、このクラス内に含まれる予期されるコンテンツを指定します。
  * 
  * <pre>
  * &lt;complexType name="sayHello">
@@ -34,7 +34,7 @@ public class SayHello {
     protected String arg0;
 
     /**
-     * Gets the value of the arg0 property.
+     * arg0プロパティの値を取得します。
      * 
      * @return
      *     possible object is
@@ -46,7 +46,7 @@ public class SayHello {
     }
 
     /**
-     * Sets the value of the arg0 property.
+     * arg0プロパティの値を設定します。
      * 
      * @param value
      *     allowed object is
